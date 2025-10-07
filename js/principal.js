@@ -21,7 +21,7 @@ console.log(paciente);
 console.log(gordura);
 
 var paciente = document.querySelector("#primeiro-paciente");
-var tdIMC = paciente.querySelector(".info-IMC");
-var IMC = tdIMC.textContent
+var tdImc = paciente.querySelector(".info-imc");
+var imc = tdImc.textContent
 console.log(paciente);
-console.log(IMC);
+console.log(imc);
