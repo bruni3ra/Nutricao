@@ -16,6 +16,7 @@ var altura = tdAltura.textContent;
 console.log(altura);
 
 var imc = peso / (altura * altura);
+var tdImc = peso / (altura * altura);
 console.log(imc);
 
 
