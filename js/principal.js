@@ -3,15 +3,14 @@ console.log(titulo);
 console.log(titulo.textContent);
 titulo.textContent = ("Aparecida Nutricionista");
 
+//1o paciente = paulo
 var paciente = document.querySelector("#primeiro-paciente");
 var tdPeso = paciente.querySelector(".info-peso");
 var peso = tdPeso.textContent
-console.log(paciente);
-console.log(peso);
-
 var tdAltura = paciente.querySelector(".info-altura");
 var altura = tdAltura.textContent
 console.log(paciente);
+console.log(peso);
 console.log(altura);
 
 var paciente = document.querySelector("#primeiro-paciente");
