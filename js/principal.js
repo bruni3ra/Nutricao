@@ -34,7 +34,7 @@ var alturaEhValida = true;
 
 if(alturaEhValida && pesoEhValido){
     var imc = peso / (altura * altura);
-    tdImc.textContent = imc:
+    tdImc.textContent = imc;
 }
 
 // var paciente = document.querySelector("#primeiro-paciente");
