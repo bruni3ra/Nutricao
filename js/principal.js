@@ -27,6 +27,9 @@ if (altura < 0 || altura > 3.00) {
     console.log("Altura inválido");
 }
 
+var pesoEhValido = true;
+var alturaEhValida = true:
+
 // var paciente = document.querySelector("#primeiro-paciente");
 // var tdGordura = paciente.querySelector(".info-gordura");
 // var gordura = tdGordura.textContent
