@@ -32,6 +32,11 @@ if (altura < 0 || altura > 3.00) {
 var pesoEhValido = true;
 var alturaEhValida = true;
 
+if(alturaEhValida && pesoEhValido){
+    var imc = peso / (altura * altura);
+    tdImc.textContent = imc:
+}
+
 // var paciente = document.querySelector("#primeiro-paciente");
 // var tdGordura = paciente.querySelector(".info-gordura");
 // var gordura = tdGordura.textContent
