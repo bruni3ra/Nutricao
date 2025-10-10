@@ -20,7 +20,7 @@ tdImc.textContent = imc;
 console.log(imc);
 
 id (peso <0 || peso>1000) {
-    console.log("Peso inválido")
+    console.log("Peso inválido");
 }
 
 
