@@ -21,10 +21,12 @@ console.log(imc);
 
 if (peso < 0 || peso > 1000) {
     console.log("Peso inválido");
+    pesoEhValido = false;
 }
 
 if (altura < 0 || altura > 3.00) {
     console.log("Altura inválido");
+    alturaEhValido = false
 }
 
 var pesoEhValido = true;
