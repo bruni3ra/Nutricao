@@ -28,7 +28,7 @@ if (peso < 0 || peso > 1000) {
 if (altura < 0 || altura > 3.00) {
     console.log("Altura inválido");
     alturaEhValido = false
-}
+}Peso invalido!
 
 var pesoEhValido = true;
 var alturaEhValida = true;
