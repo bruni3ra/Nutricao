@@ -7,9 +7,8 @@ titulo.textContent = ("Bruniera nutricão");
 var paciente = paciente.querySelectorAll(".paciente");
 
 for (var i = 0; i < pacientes.length; i++) {
-console.log(pacientes[i]);
-}
-
+    
+var paciente = paciente[i];
 
 var tdPeso = paciente.querySelector(".info-peso");
 var peso = tdPeso.textContent;
@@ -38,3 +37,6 @@ if(alturaEhValida && pesoEhValido){
 var imc = peso /(altura*altura);
 tdImc.textContent=imc;
 }
+}
+
+
