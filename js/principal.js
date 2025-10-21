@@ -9,13 +9,13 @@ for (var i = 0; i < pacientes.length; i++) {
 
     var paciente = paciente[i];
 
-    var tdPeso = paciente.querySelector(".info-peso");
+    var tdPeso = document.querySelector(".info-peso");
     var peso = tdPeso.textContent;
 
-    var tdAltura = paciente.querySelector(".info-altura");
+    var tdAltura = document.querySelector(".info-altura");
     var altura = tdAltura.textContent;
 
-    var tdImc = paciente.querySelector(".info-imc");
+    var tdImc = document.querySelector(".info-imc");
 
     var pesoEhValido = true;
     var alturaEhValida = true;
