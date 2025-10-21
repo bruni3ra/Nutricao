@@ -3,7 +3,7 @@ console.log(titulo);
 console.log(titulo.textContent);
 titulo.textContent = ("Bruniera nutricão");
 
-var paciente = paciente.querySelectorAll(".paciente");
+var pacientes = document.querySelectorAll(".paciente");
 
 for (var i = 0; i < pacientes.length; i++) {
 
