@@ -3,8 +3,7 @@ console.log(titulo);
 console.log(titulo.textContent);
 titulo.textContent = ("Bruniera nutricão");
 
-var paciente = document.querySelectorAll(".paciente");
-
+var paciente = paciente.querySelectorAll(".paciente");
 
 for (var i = 0; i < pacientes.length; i++) {
 console.log(pacientes[i]);
@@ -21,7 +20,6 @@ var tdImc = paciente.querySelector(".info-imc");
 
 var pesoEhValido = true;
 var alturaEhValida = true;
-
 
 if (peso <=0 || peso >= 1000){
 console.log("peso inválido");
