@@ -5,7 +5,7 @@ titulo.textContent = ("Bruniera nutricão");
 
 var paciente = document.querySelectorAll(".paciente");
 
-for (var i = 0; i < pacientes.lengt h; i++) {
+for (var i = 0; i < pacientes.length; i++) {
 console.log(pacientes[i]);
 }
 
