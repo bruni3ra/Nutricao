@@ -32,6 +32,7 @@ for (var i = 0; i < pacientes.length; i++) {
         alturaEhValida = false;
         tdImc.textContent=imc = "Altura inválida";
         paciente.classList.add("pacinte-invalido");
+        
 
     }
 
@@ -39,4 +40,9 @@ for (var i = 0; i < pacientes.length; i++) {
         var imc = peso /(altura*altura);
         tdImc.textContent=imc;
     }
+    }
+    
+    titulo.addEventListener("click", mostraMensagem);
+    function mostraMensagem(){
+        alert("Olá eu fui clicado.")
     }
