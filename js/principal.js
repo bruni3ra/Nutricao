@@ -31,7 +31,7 @@ for (var i = 0; i < pacientes.length; i++) {
         console.log("Altura inválida");
         alturaEhValida = false;
         tdImc.textContent=imc.toFixed(2);
-                paciente.style.backgroundColor = "lightblue";
+        paciente.classList.add("pacinte-invalido");
 
     }
 
