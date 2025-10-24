@@ -24,12 +24,13 @@ for (var i = 0; i < pacientes.length; i++) {
         console.log("Peso inválido");
         pesoEhValido = false;
         tdImc.textContent="Peso Inválido";
+        paciente.style.backgroundColor = "lightcoral";
     }
 
     if (altura <= 0 || altura >= 3.00){
         console.log("Altura inválida");
         alturaEhValida = false;
-        tdImc.textContent=imc.toFixed(2)";
+        tdImc.textContent=imc.toFixed(2);
     }
 
     if(alturaEhValida && pesoEhValido){
