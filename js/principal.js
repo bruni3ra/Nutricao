@@ -1,3 +1,5 @@
+const { createElement } = require("react");
+
 var titulo = document.querySelector("h1");
 console.log(titulo);
 console.log(titulo.textContent);
@@ -56,6 +58,19 @@ for (var i = 0; i < pacientes.length; i++) {
             var peso = from.peso.value;
             var altura = from.altura.value;
             var gordura = from.gordura.value;
+
+            var pacienteTr = document createElement("tr");
+
+            var nomeTd = document.createElement("td");
+            var pesoTd = document.createElement("td");
+            var alturaTd = document.createElement("td");
+            var gorduraTd = document.createElement("td");
+            var imcTd = document.createElement("td");
+
+            nomeTd.textContent = nome;
+            pesoTd.textContent = peso;
+            alturaTd.textContent = altura;
+            gorduraTd.textContent = gordura;
         });
 
         
