@@ -76,6 +76,9 @@ for (var i = 0; i < pacientes.length; i++) {
             pacienteTd.appendChild(pesoTd);
             pacienteTd.appendChild(alturaTd);
             pacienteTd.appendChild(gorduraTd);
+
+            var tabela=document.querySelector("#tabela-pacientes");
+            tabela.appendChild(pacienteTr);
         });
 
         
