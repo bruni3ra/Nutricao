@@ -45,13 +45,13 @@ for (var i = 0; i < pacientes.length; i++) {
     }
     
 
-    titulo.addEventListener("click", mostraMensagem);
-    function mostraMensagem(){
-        alert("Olá eu fui clicado.")
-    }
+    // titulo.addEventListener("click", mostraMensagem);
+    // function mostraMensagem(){
+    //     alert("Olá eu fui clicado.")
+    // }
 
     var botaoAdicionar = document.querySelector("#adicionar-paciente");
-        botaoAdicionar.addEventListener("click", function(event){
+    botaoAdicionar.addEventListener("click", function(event){
             event.preventDefault();
             alert("Oi eu sou o botao e fui clicado");
             var form = document.querySelector("#form-adiciona");
@@ -67,7 +67,7 @@ for (var i = 0; i < pacientes.length; i++) {
             var pesoTd = document.createElement("td");
             var alturaTd = document.createElement("td");
             var gorduraTd = document.createElement("td");
-            var imcTd = document.createElement("td");
+           // var imcTd = document.createElement("td");
 
             nomeTd.textContent = nome;
             pesoTd.textContent = peso;
