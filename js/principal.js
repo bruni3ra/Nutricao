@@ -65,10 +65,10 @@ for (var i = 0; i < pacientes.length; i++) {
             alturaTd.textContent = altura;
             gorduraTd.textContent = gordura;
 
-            pacienteTd.appendChild(nomeTd);
-            pacienteTd.appendChild(pesoTd);
-            pacienteTd.appendChild(alturaTd);
-            pacienteTd.appendChild(gorduraTd);
+            pacienteTr.appendChild(nomeTd);
+            pacienteTr.appendChild(pesoTd);
+            pacienteTr.appendChild(alturaTd);
+            pacienteTr.appendChild(gorduraTd);
 
             var tabela=document.querySelector("#tabela-pacientes");
             tabela.appendChild(pacienteTr);
