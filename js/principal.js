@@ -54,7 +54,7 @@ for (var i = 0; i < pacientes.length; i++) {
         botaoAdicionar.addEventListener("click", function(event){
             event.preventDefault();
             alert("Oi eu sou o botao e fui clicado");
-            var form = DocumentFragment.querySelector("#form-adiciona");
+            var form = document.querySelector("#form-adiciona");
 
             var nome = form.nome.value;
             var peso = form.peso.value;
