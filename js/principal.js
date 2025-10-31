@@ -40,16 +40,17 @@ for (var i = 0; i < pacientes.length; i++) {
 
     if(alturaEhValida && pesoEhValido){
         var imc = peso /(altura*altura);
-        tdImc.textContent=imc;
+        tdImc.textContent=imc.toFixed(2);
     }
     }
     
+
     titulo.addEventListener("click", mostraMensagem);
     function mostraMensagem(){
         alert("Olá eu fui clicado.")
     }
 
-    var botaoAdicionar = document.querySelector("#adicionar-paciente);
+    var botaoAdicionar = document.querySelector("#adicionar-paciente");
         botaoAdicionar.addEventListener("click", function(event){
             event.preventDefault();
             alert("Oi eu sou o botao e fui clicado");
