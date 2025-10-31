@@ -53,13 +53,14 @@ for (var i = 0; i < pacientes.length; i++) {
         botaoAdicionar.addEventListener("click", function(event){
             event.preventDefault();
             alert("Oi eu sou o botao e fui clicado");
-            var from = DocumentFragment.querySelector("#form-adiciona");
-            var nome = from.nome.value;
-            var peso = from.peso.value;
-            var altura = from.altura.value;
-            var gordura = from.gordura.value;
+            var form = DocumentFragment.querySelector("#form-adiciona");
 
-            var pacienteTr = document createElement("tr");
+            var nome = form.nome.value;
+            var peso = form.peso.value;
+            var altura = form.altura.value;
+            var gordura = form.gordura.value;
+
+            var pacienteTr = document.createElement("tr");
 
             var nomeTd = document.createElement("td");
             var pesoTd = document.createElement("td");
