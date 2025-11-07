@@ -29,13 +29,15 @@ botaoAdicionar.addEventListener("click", function (event) {
     var tabela = document.querySelector("#tabela-pacientes");
 
     tabela.appendChild(pacienteTr);
+<<<<<<< HEAD
 
     function obtemPacienteDoFormulario(form) {
         var paciente = {
-            var nome = form.nome.value;
-            var peso = form.peso.value;
-            var altura = form.altura.value;
-            var gordura = form.gordura.value;
+            nome = form.nome.value;
+            peso = form.peso.value;
+            altura = form.altura.value;
+            gordura = form.gordura.value;
+            imc: calculaImc(form.peso.value, form.altura.value)
         }
     }
 });
